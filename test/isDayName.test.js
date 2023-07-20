@@ -1,7 +1,5 @@
-const assert = require('assert');
-
-// Import the function to be tested
-const isDayName = require('../isDayName.js'); 
+import assert from 'assert';
+import isDayName from '../isDayName.js';
 
 describe('isDayName', () => {
   it('should return true for valid day names', () => {

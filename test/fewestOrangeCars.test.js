@@ -1,7 +1,5 @@
-const assert = require('assert');
-
-// Import the function to be tested
-const fewestOrangeCars = require('../fewestOrangeCars.js'); 
+import assert from 'assert';
+import fewestOrangeCars from '../fewestOrangeCars.js';
 
 describe('fewestOrangeCars', () => {
   it('should return the state code with the fewest orange cars', () => {

@@ -1,7 +1,5 @@
-const assert = require('assert');
-
-// Import the function to be tested
-const nissansFromCK = require('../nissansFromCK.js'); 
+import assert from 'assert';
+import nissansFromCK from '../nissansFromCK.js';
 
 describe('nissansFromCK', () => {
   it('should return the correct count of Nissan cars with "CK" in their registration number', () => {

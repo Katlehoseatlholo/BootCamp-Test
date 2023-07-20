@@ -1,8 +1,5 @@
-const assert = require('assert');
-
-// Import the function to be tested
-const sameWeekday = require('../sameWeekday.js'); 
-
+import assert from 'assert';
+import sameWeekday from '../sameWeekday.js';
 describe('sameWeekday', () => {
   it('should return true for two dates with the same weekday', () => {
     const date1 = '2023-07-20'; // A Wednesday

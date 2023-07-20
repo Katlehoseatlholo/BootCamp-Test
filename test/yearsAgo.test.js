@@ -1,7 +1,9 @@
-const assert = require('assert');
+import assert from 'assert';
+import yearsAgo from '../yearsAgo.js';
+//const assert = require('assert');
 
 // Import the function to be tested
-const yearsAgo = require('../yearsAgo.js'); 
+//const yearsAgo = require('../yearsAgo.js'); 
 describe('yearsAgo', () => {
   it('should return the correct difference in years', () => {
     const currentYear = new Date().getFullYear();
