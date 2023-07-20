@@ -22,15 +22,10 @@
     "email": "",
     "url": ""
   },
-  "contributors": [
-
-  ],
+  "contributors": [],
   "scripts": {
     "dev": "",
     "test": "mocha"
-  },
-  "dependencies": {
-
   },
   "devDependencies": {
     "mocha": "^10.2.0"
