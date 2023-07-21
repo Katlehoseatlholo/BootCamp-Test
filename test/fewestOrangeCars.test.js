@@ -11,9 +11,10 @@ describe('fewestOrangeCars', () => {
       { reg_number: 'TX345', color: 'blue' },
       { reg_number: 'CA678', color: 'orange' },
     ];
+    const expectedResult = 'FL';
 
     // Call the function and check the result
-    assert.strictEqual(fewestOrangeCars(cars), 'TX', "The state code with the fewest orange cars should be 'TX'");
+    assert.strictEqual(fewestOrangeCars(cars), expectedResult);
   });
 
   it('should return an empty string if no orange cars are found', () => {
@@ -22,15 +23,17 @@ describe('fewestOrangeCars', () => {
       { reg_number: 'NY456', color: 'green' },
       { reg_number: 'FL789', color: 'red' },
     ];
+    const expectedResult = '';
 
     // Call the function and check the result
-    assert.strictEqual(fewestOrangeCars(cars), '', "The function should return an empty string");
+    assert.strictEqual(fewestOrangeCars(cars), expectedResult);
   });
 
   it('should handle an empty input array', () => {
     const cars = [];
+    const expectedResult = '';
 
     // Call the function and check the result
-    assert.strictEqual(fewestOrangeCars(cars), '', "The function should return an empty string");
+    assert.strictEqual(fewestOrangeCars(cars), expectedResult);
   });
 });

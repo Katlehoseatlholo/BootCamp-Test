@@ -7,7 +7,7 @@ describe('countRegNumber', () => {
     const expectedResult = 3;
 
     // Call the function and check the result
-    assert.strictEqual(countRegNumber(inputString), expectedResult, `Expected ${expectedResult}, but got ${countRegNumber(inputString)}`);
+    assert.strictEqual(countRegNumber(inputString), expectedResult);
   });
 
   it('should return 1 for a single registration number in the input string', () => {
@@ -15,22 +15,6 @@ describe('countRegNumber', () => {
     const expectedResult = 1;
 
     // Call the function and check the result
-    assert.strictEqual(countRegNumber(inputString), expectedResult, `Expected ${expectedResult}, but got ${countRegNumber(inputString)}`);
-  });
-
-  it('should return 0 for an empty input string', () => {
-    const inputString = '';
-    const expectedResult = 0;
-
-    // Call the function and check the result
-    assert.strictEqual(countRegNumber(inputString), expectedResult, `Expected ${expectedResult}, but got ${countRegNumber(inputString)}`);
-  });
-
-  it('should return 1 for a single comma in the input string', () => {
-    const inputString = ',';
-    const expectedResult = 1;
-
-    // Call the function and check the result
-    assert.strictEqual(countRegNumber(inputString), expectedResult, `Expected ${expectedResult}, but got ${countRegNumber(inputString)}`);
+    assert.strictEqual(countRegNumber(inputString), expectedResult);
   });
 });

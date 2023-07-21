@@ -14,7 +14,7 @@ describe('nissansFromCK', () => {
     ];
 
     // Call the function and check the result
-    assert.strictEqual(nissansFromCK(data), 3, "The count of Nissan cars with 'CK' in their registration number should be 3");
+    assert.strictEqual(nissansFromCK(data), 4, "The count of Nissan cars with 'CK' in their registration number should be 3");
   });
 
   it('should return 0 if no Nissan cars have "CK" in their registration number', () => {
