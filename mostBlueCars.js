@@ -3,7 +3,7 @@
 // with the highest number of blue cars. The car objects are assumed to have a
 // 'color' property and a 'reg_number' property.
 
-function mostBlueCars(cars) {
+export default function mostBlueCars(cars) {
     // Create an object to store the count of blue cars for each state
     var blueCarCount = {};
   

@@ -1,4 +1,4 @@
-function mostPopularCar(data) {
+export default function mostPopularCar(data) {
     // Create an empty object to store the counts of each car make
     const counts = {};
     // Initialize variables to keep track of the most popular make and its count

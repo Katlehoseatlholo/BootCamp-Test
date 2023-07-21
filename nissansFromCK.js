@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////
 // Defines a function named `nissansFromCK` that takes an array of car objects as its input parameter
-function nissansFromCK(data) {
+export default function nissansFromCK(data) {
     // Initializes a variable `total` to 0, which will be used to count the number of Nissan cars in the dataset
     var total = 0;
     // Loops through each car object in the input array using a for loop

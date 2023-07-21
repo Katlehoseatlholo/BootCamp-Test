@@ -1,5 +1,5 @@
 // This function counts the number of registration numbers in a given string separated by commas
-function countRegNumber(givenString)
+export default function countRegNumber(givenString)
 {
   // The split() method splits a string into an array of substrings based on a specified separator and returns the new array
   // In this case, it splits the given string into an array of substrings using the comma as a separator and returns the length of the array

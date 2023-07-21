@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-function fewestOrangeCars(cars) {
+export default function fewestOrangeCars(cars) {
   // Create an object to store the count of orange cars for each state
   var orangeCarCount = {};
 
